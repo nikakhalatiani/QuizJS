@@ -68,3 +68,17 @@ button{
   .hidden {
     display: none;
   }
+
+@media screen and (max-width: 640px) {
+  .not-button {
+    padding: 2rem;
+  }
+
+  ul li {
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+  .quiz-container {
+    width: 85vw;  
+  }
+}
